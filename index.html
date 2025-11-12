@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
-
+<html lang="zh-TW">
 <head>
-    <meta charset="utf-8" />
-    <title>萬聖節吃角子老虎機 🎃</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聖誕寶可夢抽卡系統</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-   <h1>萬聖節吃角子老虎機 🎃</h1>
-</body>
+    <div class="snow"></div>
+    <div class="christmas-lights"></div>
+    <div class="container">
+        <h1>🎄 聖誕寶可夢抽卡 🎄</h1>
+        
+        <div class="buttons">
+            <button id="singleDraw" class="draw-button">單抽</button>
+            <button id="tenDraw" class="draw-button">10連抽</button>
+        </div>
 
+        <div class="cards-grid"></div>
+
+        <div class="stats">
+            <h2>抽卡統計</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-label">SS級:</span>
+                    <span class="stat-SS">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">S級:</span>
+                    <span class="stat-S">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">A級:</span>
+                    <span class="stat-A">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">B級:</span>
+                    <span class="stat-B">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">C級:</span>
+                    <span class="stat-C">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">D級:</span>
+                    <span class="stat-D">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">E級:</span>
+                    <span class="stat-E">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">總計:</span>
+                    <span class="stat-total">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
